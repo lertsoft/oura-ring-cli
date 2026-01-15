@@ -130,8 +130,8 @@ main() {
     if command -v "$BINARY_NAME" > /dev/null 2>&1; then
         success "Installation complete!"
         printf "\n"
-        info "Run ${GREEN}oura --help${NC} to get started"
-        info "Run ${GREEN}oura auth${NC} to authenticate with your Oura account"
+        info "Run ${GREEN} oura --help ${NC} to get started"
+        info "Run ${GREEN} oura auth ${NC} to authenticate with your Oura account"
     else
         warn "Installation complete, but ${BINARY_NAME} is not in your PATH"
         printf "\n"
