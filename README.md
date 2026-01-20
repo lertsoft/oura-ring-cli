@@ -35,7 +35,7 @@ sudo mv oura-darwin-arm64 /usr/local/bin/oura
 Requires [Bun](https://bun.sh) runtime:
 
 ```bash
-cd oura-cli-ts
+cd oura-ring-cli
 bun install
 bun run build
 ./oura --help
