@@ -2,6 +2,7 @@
 import { Command } from "commander";
 import { createAuthCommand } from "./commands/auth";
 import { createGetCommand } from "./commands/get";
+import { createExportCommand } from "./commands/export";
 
 const program = new Command();
 
@@ -13,6 +14,7 @@ program
 // Add commands
 program.addCommand(createAuthCommand());
 program.addCommand(createGetCommand());
+program.addCommand(createExportCommand());
 
 // Parse arguments
 program.parse();

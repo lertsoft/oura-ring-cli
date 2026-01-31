@@ -1,6 +1,6 @@
 {
   "name": "oura-ring-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool for accessing Oura Ring data",
   "type": "module",
   "main": "src/index.ts",
@@ -35,6 +35,6 @@
     "sleep",
     "cli"
   ],
-  "author": "",
+  "author": "lertsoft",
   "license": "MIT"
 }
